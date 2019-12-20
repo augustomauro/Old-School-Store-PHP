@@ -1,0 +1,61 @@
+TAREA							ESTADO
+
+-CSS para consolas.php, si hay 1, 2 o 4 art.		correcto
+-Foreach para articulo.php				correcto
+-Formulario Registro Usuario Fem/Masc ?			correcto
+-Corregir Metodo GET a POST en articulo.php		correcto
+-Corregir Uppercase (titulos) para categorias		correcto
+-Pagina Detalle Productos (consolas) dinamica con php	correcto
+-Carrito Compras (solo cuantificable)			correcto
+-Carrito Compras (base de datos)			correcto
+-Favoritos (solo cuantificable)				correcto
+-Favoritos (base de datos)				correcto
+-Encapsular las paginas o funciones x carpeta		correcto
+-Cambiar select/option por input con stock		correcto
+-Agregar session_start() en index.php solamente		correcto
+  y el archivo functions.php
+-URGENTE: quitar la <a> de los button e input post	correcto
+ en articulo.php para que funcione en IE y Firefox
+ hacer todo en <button>
+-Mejorar busqueda de items usuario en session con una	correcto
+ posicion que quede guardada en session
+-Ver como se esta guardando en user.json		correcto
+-Cambiar la forma en que guarda perfilUs		correcto
+-Favoritos ya seleccionado o no (con distinto color)	correcto
+-Pagina Administrador de Usuarios (eliminar, editar)	eliminar
+-Menu Categorias (que sea desplegable)			correcto
+-Cambiar la manera de guardar categorias a numeros	correcto
+-Menu Avatar, carrito y favoritos en UL (php)		correcto
+-Filtrar con error las cat q no correspondan 		correcto
+ en detalle.php y/o articulo.php
+-Favoritos Agregar/Quitar con mismo boton		correcto
+-Boton eliminar del carrito en articulo.php		correcto
+-Mensajes de error/aviso para Favoritos y Carrito	correcto
+-Pagina muestra carrito compra y/o favoritos		correcto
+-Tipos de usuarios Guest y Admin p/ciertas operac.	correcto
+-Cambiar Sexo por Genero en Register y base usuers.json	correcto
+-Cambiar Categorias en productos.json por ID de Cat.	correcto
+-Mi Carrito y Favoritos con option para realizar	en proceso
+ una accion general (borrar, comprar, guardar, etc)
+-Gender 'Otro' y mensaje 'Hola'				correcto
+-Agregar date() o time() a registro de users		correcto
+-Cambiar base json a ingles
+-Favoritos/Carrito quantity en $_SESSION['usuario']	correcto
+-Cambiar id prod y users por code			correcto
+-Cambiar busquedas users y products a ID numerico	correcto
+ y mostrar code para productos
+-Agregar purchase_id, currency y price a carts.json	correcto
+
+-Favoritos/Carrito en $_SESSION['usuario']
+-Agregar json faltantes a la base de datos
+-Quitar contenido de texto vacio al inicio del home
+-Pagina Administrador de productos (edicion)
+ u otros datos con menu select o inputs
+-En carrito agregar input hidden que reste el valor
+ del select
+-Revisar pattern en modo edicion perfil p/IE y Firefox
+-Pagina Administrador Usuarios, cambiar tipo de usuario
+ u otros datos con menu select o inputs
+
+
+
