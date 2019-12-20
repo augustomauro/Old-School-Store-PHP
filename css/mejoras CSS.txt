@@ -1,0 +1,150 @@
+Para HEADER
+
+Agregar:
+#salir-home {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+Quitar:
+color: red;
+
+
+Corregir Media Queries para max-width 540px:
+
+@media screen and (max-width: 540px)	linea 962
+
+header .barra-inicio img#logo {
+    width: 95%;
+}
+
+header .barra-inicio nav ul {
+    position: initial;
+    line-height: 2.5;
+    padding-top: 10px;
+    padding-inline-start: 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+header .barra-inicio nav ul li img#avatar {
+    margin-bottom: 20px;
+}
+
+header .barra-inicio img#logo {
+    width: 95%;
+}
+
+header .categorias-inicio {
+    /* text-align: center; */
+    line-height: 2.5;
+}
+
+
+header .categorias-inicio nav ul {
+    padding-inline-start: 20px;
+    padding-top: 10px;
+}
+
+-----------------------------
+Para FOOTER
+footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 6.375rem; /* Footer height (1rem = 16px) */
+}
+------------------------------
+Agregar:
+.container {
+   position: relative;
+   min-height: 100vh;  /* para celulares deberia ser 100% */
+{
+------------------------------
+Quitar de .container:
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+------------------------------
+Agregar clase general para la parte central de LAS PAGINAS,
+que no incluya el header y el footer.
+
+Agregar:
+.content-wrap {
+    padding-top: 0rem;
+    padding-bottom: 6.375rem;
+    display: flex; /* no seria necesario */
+    flex-direction: column; /* no seria necesario */
+    justify-content: center; /* no seria necesario */
+}
+------------------------------
+Para detalleproducto.php
+
+Agregar:
+.consolas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%; /* para presionar todos los items hacia adentro */
+    flex-direction: row; /* para resoluciones grandes */
+    flex-direction: column; /* para resoluciones chicas */ 
+}
+
+HACER RESPONSIVE DE FLEX ROW A COLUMN CON RES. MENOR A 768px
+
+.consolas .card {
+    align-self: stretch; /* en resoluciones chicas estira el contenido */
+}
+
+Quitar de .consolas:
+    width: 100%;
+
+Quitar de .consolas .card:
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 30%;
+
+-----------------------------
+Para home.php
+
+Agregar:
+.frecuentes {
+    justify-content: center;
+}
+
+Agregar:
+.frecuentes-tips {
+    padding: inherit;
+}
+
+Quitar de .frecuentes-tips:
+    width: 33%;
+
+
+HACER RESPONSIVE EN 540px 
+
+menores a 540px:
+.frecuentes-tips {
+    width: 33%;
+}
+
+mayores a 540px:
+.frecuentes-tips {
+    width: 80%;
+}
+
+----------------------------
+Para articulo.php
+
+Agregar:
+.row {
+    margin: 0;
+}
+----------------------------
+Para los botones Favoritos y Carrito
+dentro de articulo.php
+
+button {
+    border-width: 0;
+    background-color: inherit;
+}

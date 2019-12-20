@@ -1,0 +1,93 @@
+Quitar:
+
+
+todo css linea 97
+
+css linea 865
+justify-content: center;
+
+todo css linea 874
+
+todo css linea 879
+
+css linea 1003
+padding-inline-start: 22px;
+
+todo css linea 1002
+
+
+Agregar:
+
+css linea 98
+header .barra-inicio nav ul {
+    width: 65%;
+    justify-content: flex-end;
+}
+
+
+css linea 108
+width: max-content;
+height: max-content;
+margin: 0px 5px;
+
+
+sobre-escribir x color header o Quitar de la clase
+.bg-light {
+    background-color: #f8f9fa!important;
+}
+
+
+sobre-escribir x color texto o colocar 'inherit'
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+
+sobre-escribir o cambiar y quitar .navbar button de linea css 45
+.navbar-toggler {
+    background-color: #d9d9d9;
+    /* border: 1px solid transparent;
+}
+
+
+agregar-escribir o en linea css 97 (header .barra-inicio nav ul)
+.nav-bar {
+/*position: relative;*/ /*no hace falta con align-items: center en .navbar-nav*/
+/*top: 10px;*/ /*no hace falta con align-items: center en .navbar-nav*/
+}
+
+
+sobre-escribir (min-width 992px solamente)
+.navbar-nav {
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+
+sobre-escribir
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    /* color: rgba(0,0,0,.7);*/
+}
+
+
+cambiar linea css 74
+header .barra-inicio img#logo {
+	width: 100%;
+}
+
+
+agregar
+a .navbar-brand {
+     width: 35%;
+}
+
+
+quitar linea css 79
+top
+position
+
+cambiar css linea 887
+width: 400px;
+
+cambiar css linea 1033
+width: 170%;
