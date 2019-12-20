@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "name": "Audio",
+        "image": "img\/Categorias\/audio.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 1,
+        "name": "Camaras",
+        "image": "img\/Categorias\/camara.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 2,
+        "name": "Celulares",
+        "image": "img\/Categorias\/celular.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 3,
+        "name": "Computadoras",
+        "image": "img\/Categorias\/computadora.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 4,
+        "name": "Consolas",
+        "image": "img\/Categorias\/consola.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 5,
+        "name": "Memorias Externas",
+        "image": "img\/Categorias\/memoriaexterna.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 6,
+        "name": "Portatiles",
+        "image": "img\/Categorias\/portatil.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    },
+    {
+        "id": 7,
+        "name": "Realidad Virtual",
+        "image": "img\/Categorias\/realidadvirtual.png",
+        "created_at": 1574914750,
+        "updated_at": null
+    }
+]

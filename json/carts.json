@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "purchase_id": null,
+        "user_id": 1,
+        "user_code": "USER3129",
+        "products": [
+            {
+                "prod_id": 10,
+                "prod_code": "OSS0661",
+                "currency": "$",
+                "price": 50,
+                "prod_qty": 2
+            },
+            {
+                "prod_id": 7,
+                "prod_code": "OSS4780",
+                "currency": "$",
+                "price": 950.33,
+                "prod_qty": 1
+            }
+        ],
+        "created_at": 1576730157,
+        "updated_at": 1576762428
+    }
+]
